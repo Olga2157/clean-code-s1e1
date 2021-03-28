@@ -6,7 +6,7 @@ body {
   font-family: lato, sans-serif;
 }
 
-.eisenhower-matrix {
+header {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -17,17 +17,17 @@ body {
   width: 100%;
 }
 
-.eisenhower-matrix .more-inf {
+.more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .eisenhower-matrix {
+  header {
     text-align: center;
   }
 }
 
-.wrapper {
+main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
