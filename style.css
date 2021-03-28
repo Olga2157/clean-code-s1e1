@@ -6,23 +6,23 @@ body {
   font-family: lato, sans-serif;
 }
 
-.matrix {
+.eisenhower-matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.matrix img {
+.eisenhower-matrix img {
   width: 100%;
 }
 
-.matrix .more-inf {
+.eisenhower-matrix .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .matrix {
+  .eisenhower-matrix {
     text-align: center;
   }
 }
