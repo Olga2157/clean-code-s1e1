@@ -6,28 +6,28 @@ body {
   font-family: lato, sans-serif;
 }
 
-.aaa {
+.matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.matrix img {
   width: 100%;
 }
 
-.aaa .more-inf {
+.matrix .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa {
+  .matrix {
     text-align: center;
   }
 }
 
-.centered-main-page-element {
+.wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -39,7 +39,7 @@ body {
   flex-grow: 1
 }
 
-.task-row-wrapper {
+.task-wrapper {
   display: flex;
 }
 
@@ -170,11 +170,11 @@ ul li input[type=text] {
   display: none
 }
 
-ul li.editMode input[type=text] {
+ul li.edit-tasks input[type=text] {
   display: inline-block;
   width: 224px
 }
 
-ul li.editMode label {
+ul li.edit-tasks label {
   display: none;
 }
